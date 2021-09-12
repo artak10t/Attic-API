@@ -9,3 +9,5 @@ Cloud storage solution for you!
 
 ## How it works
 ![Attic](attic.png)
+
+## (Documentation, (https://github.com/artak10t/Attic-API/wiki))
