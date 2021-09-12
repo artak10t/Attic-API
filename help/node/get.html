@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>API - Documentation</title>
+    <meta name="author" content="Attic">
+    <link rel="stylesheet" href="../css/style.css" media="all">
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+</head>
+
+<div class="content-page">
+    <div class="content">
+            <h1 id="get-started">Node Get</h1>
+            <h3>REQUIRED PRIVILEGE - NONE</h3>
+            <p>
+                Get node settings.
+            </p>
+            <h2>Request</h2>
+            <p>
+                <code class="higlighted">'POST/GET' methods are accepted</code>
+            </p>
+
+            <h2>RESPONSE</h2>
+            <p>
+                Returns after request
+            </p>
+            <table>
+                <thead>
+                <tr>
+                    <th>Error Code</th>
+                    <th>Message</th>
+                    <th>Data</th>
+                    <th>Description</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>0</td>
+                    <td>Success</td>
+                    <td>All node information</td>
+                    <td></td>
+                </tr>
+                </tbody>
+            </table>
+        <h4>EXAMPLE</h4>
+
+<pre>
+{
+  "code": 0,
+  "msg": "",
+  "data": {
+    "fqdn": "attic.com",
+    "registration_mode": 0,
+    "session_timeout": 1440,
+    "activation_invitation_tokens_timeout": 4320,
+    "password_email_tokens_timeout": 60,
+    "account_expire_delete_timeout": 14400,
+    "max_space": 10737418240,
+    "max_attics_count": 10,
+    "max_folders_count": 10000,
+    "max_files_count": 100000000,
+    "max_depth": 100
+  }
+}
+</pre>
