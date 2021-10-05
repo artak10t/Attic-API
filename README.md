@@ -9,7 +9,7 @@ Cloud storage solution for you!
 4. You are ready to use API functions!
 
 ## To-Do
-* Update documentation.
+* Update documentation and UML diagram.
 
 ## How it works
 ![Attic](attic.png)
