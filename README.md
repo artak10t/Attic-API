@@ -2,7 +2,7 @@
 Cloud storage solution for you!
 
 ## Quick Start
-0. Ignore api functions outside v1, they are not optimized for now.
+0. **Ignore api functions outside v1, they are not optimized for now.**
 1. Setup MySQL server, open v1/utils/config.php and change settings according to your database server.
 2. Run attic.sql, it will generate MySQL server with tables and procedures.
 3. Setup apache server or alternatives.
