@@ -9,10 +9,10 @@ define('MYSQL_PORT', 3306);
 define('MYSQL_DATABASE', 'attic');
 
 // MySQL server username
-define('MYSQL_USERNAME', 'admin');
+define('MYSQL_USERNAME', 'myuser');
 
 // MySQL server password
-define('MYSQL_PASSWORD', 'aaa000');
+define('MYSQL_PASSWORD', 'mypassword');
 
 // How many times retry the same query on deadlock
 define('DEADLOCK_RETRIES', 10);
