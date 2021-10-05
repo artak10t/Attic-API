@@ -8,6 +8,9 @@ Cloud storage solution for you!
 3. Setup apache server or alternatives.
 4. You are ready to use API functions!
 
+## To-Do
+* Update documentation.
+
 ## How it works
 ![Attic](attic.png)
 
